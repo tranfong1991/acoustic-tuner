@@ -1,0 +1,35 @@
+{
+	"intents": [
+		{
+			"intent": "PlayNoteIntent",
+			"slots": [
+				{
+					"name": "Note",
+					"type": "LIST_OF_NOTES"
+				}
+			]
+		},
+		{
+			"intent": "PlayNoteWithFrequencyIntent",
+			"slots": [
+				{
+					"name": "Note",
+					"type": "LIST_OF_NOTES"
+				},
+				{
+					"name": "Frequency",
+					"type": "AMAZON.NUMBER"
+				}
+			]
+		},
+		{
+			"intent": "AMAZON.HelpIntent"
+		},
+		{
+			"intent": "AMAZON.StopIntent"
+		},
+		{
+			"intent": "AMAZON.CancelIntent"
+		}
+	]
+}
