@@ -1,7 +1,7 @@
 {
-  "name": "tune",
+  "name": "Acoustic",
   "version": "1.0.0",
-  "description": "alexa music tune skill",
+  "description": "alexa skill for guitar tuning",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

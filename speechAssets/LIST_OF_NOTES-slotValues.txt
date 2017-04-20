@@ -1,21 +1,12 @@
-a flat
+ay
 a
-a sharp
-b flat
+bee
 b
-b sharp
-c flat
-c
-c sharp
-d flat
+dee
 d
-d sharp
-e flat
-e
-e sharp
-f flat
-f
-f sharp
-g flat
+low ee
+low e
+high ee
+high e
+gee
 g
-g sharp
