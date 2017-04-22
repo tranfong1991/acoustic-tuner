@@ -3,11 +3,11 @@
 var Alexa = require('alexa-sdk');
 var constants = require('./constants');
 var instructionSpeech = "To use this skill, you can say something like, " + 
-	"play gee, or, play dee 3 times. What do you want to play?";
+	"play note gee, or, play bee 3 times. What do you want to play?";
 
 var handlers = {
 	"LaunchRequest": function(){
-		this.emit(':ask', "Welcome to Acoustic. " + instructionSpeech,
+		this.emit(':ask', "Welcome to Tuna. " + instructionSpeech,
 			"Please say a note you want to play.");
 	},
 	"PlayNoteIntent": function(){
@@ -46,7 +46,7 @@ var handlers = {
 		this.emit('AMAZON.CancelIntent');
 	},
 	"AMAZON.CancelIntent": function(){
-		this.emit(':tell', "Thank you for using Acoustic");
+		this.emit(':tell', "Thank you for using Tuna");
 	},
 	"Unhandled": function(){
 		var speech = "Sorry, I could not understand. Please say a note you want to play.";

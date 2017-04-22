@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = Object.freeze({
-	appId: 'amzn1.ask.skill.1937d62b-b63b-4a7d-974b-ffea2d078066',
+	appId: 'amzn1.ask.skill.6b08db4c-ae7d-4d0e-ad57-ed9f778c52a1',
 
 	audios: {
 		"low-e": "https://s3.amazonaws.com/alexa-tune/tunes/low-E.mp3",

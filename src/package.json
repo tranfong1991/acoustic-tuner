@@ -1,5 +1,5 @@
 {
-  "name": "Acoustic",
+  "name": "Tuna",
   "version": "1.0.0",
   "description": "alexa skill for guitar tuning",
   "main": "index.js",
@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "alexa-sdk": "^1.0.8"
-  }
+  },
+  "repository": "https://github.com/tranfong1991/Tuna.git"
 }
