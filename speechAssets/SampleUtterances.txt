@@ -1,4 +1,6 @@
 PlayNoteIntent {Note}
 PlayNoteIntent Play {Note}
+PlayNoteIntent Play note {Note}
 PlayNoteWithFrequencyIntent {Note} {Frequency} times
 PlayNoteWithFrequencyIntent Play {Note} {Frequency} times
+PlayNoteWithFrequencyIntent Play note {Note} {Frequency} times

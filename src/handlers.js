@@ -7,7 +7,7 @@ var instructionSpeech = "To use this skill, you can say something like, " +
 
 var handlers = {
 	"LaunchRequest": function(){
-		this.emit(':ask', "Welcome to Tuna. " + instructionSpeech,
+		this.emit(':ask', "Welcome to Acoustic Tuner. " + instructionSpeech,
 			"Please say a note you want to play.");
 	},
 	"PlayNoteIntent": function(){
@@ -46,7 +46,7 @@ var handlers = {
 		this.emit('AMAZON.CancelIntent');
 	},
 	"AMAZON.CancelIntent": function(){
-		this.emit(':tell', "Thank you for using Tuna");
+		this.emit(':tell', "Thank you for using Acoustic Tuner");
 	},
 	"Unhandled": function(){
 		var speech = "Sorry, I could not understand. Please say a note you want to play.";
